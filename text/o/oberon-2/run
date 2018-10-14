@@ -1,0 +1,9 @@
+MODULE Greet;
+IMPORT Out;
+  PROCEDURE Om*;
+  BEGIN
+    Out.String("Namaste!");Out.Ln
+  END Om;
+BEGIN
+  Om;
+END Greet.

@@ -1,0 +1,3 @@
+println("Namaste!")
+
+stdout.println("Namaste!")

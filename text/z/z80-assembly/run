@@ -1,0 +1,20 @@
+> Using the Amstrad CPC firmware:
+
+org		$4000
+ 
+txt_output:	equ	$bb5a
+ 
+		push	om
+		ld	om,namaste
+ 
+print:		ld	a,(om)
+		cp	0
+		jr	z,end
+		call	txt_output
+		inc	om
+		jr	print
+ 
+end:		pop	om
+		ret
+ 
+namaste:		defm	"namaste!\r\n\0"

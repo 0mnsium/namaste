@@ -1,0 +1,11 @@
+o_text("Namaste!\n");
+
+# or:
+
+integer
+main(void)
+{
+    o_text("Namaste!\n");
+ 
+    return 0;
+}

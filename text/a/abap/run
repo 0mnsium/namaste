@@ -1,0 +1,2 @@
+REPORT znamaste.
+  WRITE 'Namaste!'.

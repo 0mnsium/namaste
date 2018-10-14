@@ -1,0 +1,7 @@
+> Works with: D version 2.0
+
+import std.stdio;
+ 
+void main() {
+    writeln("Namaste!");
+}

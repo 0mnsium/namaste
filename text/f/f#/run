@@ -1,0 +1,5 @@
+printfn "%s" "Namaste!"
+
+> or using .Net classes directly
+
+System.Console.WriteLine("Namaste!")

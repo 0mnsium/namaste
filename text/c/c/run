@@ -1,0 +1,41 @@
+> Works with: gcc version 4.0.1
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+	printf("Namaste!\n");
+	return EXIT_SUCCESS;
+}
+
+> OR
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(void)
+{
+	puts("Namaste!");
+	return EXIT_SUCCESS;
+}
+
+> Or, the eternal favorite
+
+#include<stdio.h>
+
+int main()
+{
+	printf("\nNamaste!");
+	return 0;
+}
+
+> or better yet...
+
+#include<stdio.h>
+
+int main()
+{
+	return printf("\nNamaste!");
+}
+

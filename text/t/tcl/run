@@ -1,0 +1,7 @@
+> Output to terminal:
+
+puts "Namaste!"
+
+> Output to arbitrary open, writable file:
+
+puts $fileID "Namaste!"
